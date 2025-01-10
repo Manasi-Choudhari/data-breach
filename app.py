@@ -33,8 +33,8 @@ model = joblib.load("anomaly_detector.pkl")
 
 # Function to send email alerts
 def send_email_alert(to_email, subject, body):
-    sender_email = "your_email@example.com"
-    sender_password = "your_email_password"
+    sender_email = "choudharimanasi281@gmail.com"
+    sender_password = "Manasi@23"
 
     # Set up the email
     msg = MIMEMultipart()
